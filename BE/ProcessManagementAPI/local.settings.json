@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "TenantID": "9cf5fd81-9ac5-454f-a372-ca6f596f7e55",
+    "ClientID": "969c275e-1255-4314-9a23-c79f4d4cb169",
+    "ClientSecret": "jOzKXlwQz4LdIR7p9oChZccX/pL+2YjNPpXxCK4jtot=",
+    "Tenant": "https://datahorizoneu.sharepoint.com",
+    "GraphApiClientID": "c41d9575-cf65-469e-92d1-5bfb19135602",
+    "GraphApiClientSecret": "N7-krI7JCcza1s5AS-417-1h4CM8Ml4g-_",
+    "GraphApiTenantID": "9cf5fd81-9ac5-454f-a372-ca6f596f7e55",
+    "GraphApiAuthority": "https://login.microsoftonline.com/"
+  },
+  "Host": {
+    "CORS": "https://datahorizoneu.sharepoint.com"
+  }
+}
