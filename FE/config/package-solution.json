@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "process-management-app-client-side-solution",
+    "id": "731f2d38-4ad8-4ea7-9c43-1f891b5edf8c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "processManagementApp description"
+      },
+      "longDescription": {
+        "default": "processManagementApp description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "process-management-app Feature",
+        "description": "The feature that activates elements of the process-management-app solution.",
+        "id": "a8dbaa85-f6fb-430b-895c-f8d3b890d0c2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/process-management-app.sppkg"
+  }
+}

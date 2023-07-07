@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "process-management-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/processManagementApp/ProcessManagementAppWebPart.js",
+          "manifest": "./src/webparts/processManagementApp/ProcessManagementAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ProcessManagementAppWebPartStrings": "lib/webparts/processManagementApp/loc/{locale}.js"
+  }
+}
